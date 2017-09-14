@@ -1,8 +1,8 @@
 # PHYS220 CW 3
 
-**Author(s):** **CHANGEME**
+**Author(s): Nikki Schwartz and Riley Kendall
 
-[![Build Status](https://travis-ci.org/chapman-phys220-2017f/cw-03-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-phys220-2017f/cw-03-YOURNAME)
+[![Build Status](https://travis-ci.org/chapman-phys220-2017f/cw-03-riley-and-nikki.svg?branch=master)](https://travis-ci.org/chapman-phys220-2017f/cw-03-riley-and-nikki)
 
 ## Specification
 
@@ -37,9 +37,8 @@ Pro-tip: using git to manage conflicts on Jupyter notebooks is a pain. I recomme
 
 ## Assessment
 
-Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
+We really started to actually understand the math equations outside of coding. Having one-on-one help does give us a better understanding. We still feel a little confused on how to edit the jupyter notebook. We know how to import our code from python to jupyter.
 
-**CHANGEME**
 
 ## Honor Pledge
 
@@ -50,4 +49,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+Nikki and Riley
