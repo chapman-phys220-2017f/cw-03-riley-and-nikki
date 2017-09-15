@@ -11,6 +11,16 @@ def interval(f,a,b,dx):
     for i in range(N):
         list_interval.append(f(a+i*dx))
     return list_interval
-print(interval(add,0,10,1))
+
+def integrate(i,dx):
+    """integrate (i:interval, dx:float) return:float"""
+    area = 0
+    for fval in i:
+        area += fval * dx
+    return area
     
-#def integrate(i,dx):
+    
+    
+    
+if __name__ == "__main__":
+    print(interval(add,0,10,1))
