@@ -37,12 +37,10 @@ def test_integrate():
     
 def test_gauss_norm():
 """Tests integrate with a small dx"""
-    result = gaussian.integrate(math.exp,0,10,1)
+    list_interval=[]
+    dx = 1
+    result=gaussian.interval(math.exp,0,10,1)
     actual = [1.0, 2.718281828459045, 7.38905609893065, 20.085536923187668, 54.598150033144236, 148.4131591025766, 403.4287934927351, 1096.6331584284585, 2980.9579870417283, 8103.083927575384]
-    assert results == actual
-    
-    
-    
-    
+    assert(result, actual)    
     
     
