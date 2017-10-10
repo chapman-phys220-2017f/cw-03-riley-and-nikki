@@ -33,10 +33,10 @@ def test_integrate():
         return 5
     
     i = gaussian.integrate(const_func,0,10,1)
-    result = gaussian.integrate(i,1)
+    result = gaussian.integrate(i,1)           ### There is no assert in this test. Also the result does not make sense, and does not use the integrate function correctly.
     
 def test_gauss_norm():
-"""Tests integrate with a small dx"""
+"""Tests integrate with a small dx"""     ### Tests failed because this line was not indented. Be sure to actually read the failures and correct them.
     list_interval=[]
     dx = 1
     result=gaussian.interval(math.exp,0,10,1)
